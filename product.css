@@ -17,6 +17,10 @@
     font-size: 45px;
 }
 
+.navbar h1:hover {
+    color:#FF9999;
+}
+
 .navbar a {
     padding-top: 30px;
     text-decoration: none;
@@ -26,7 +30,7 @@
 }
 
 .navbar a:hover{
-    color: #FFE6CC;
+    color: #FF9999;
 }
 
 .main {
@@ -36,16 +40,59 @@
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 100px;
 }
 
-.main img {
+.main a {
+    color: black;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #FFE6CC;
+}
+
+.main-info {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reviews {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF9999;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.reviews p {
+    padding: 10px;
     border: solid #FFE6CC;
-    border-radius: 90px;
-    border-width: 5px;
-    padding: 50px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.pro-sec1 {
+.footer {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    font-size: 17px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: #FF9999;
 }
