@@ -1,5 +1,5 @@
 .html {
-    max-width: 1000px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: #ffcccc;
     font-family:Kalam, sans-serif;
@@ -38,7 +38,6 @@
     background-color: #FF9999;
     max-height: 40px;
     padding: 5px;
-    box-shadow: 0px 10px 20px rgb(149, 148, 148);
 }
 
 .navbar a:hover{
@@ -84,11 +83,12 @@
 
 .reviews p {
     padding: 10px;
-    border: solid #FFE6CC;
+    border: solid #ffcccc;
     border-radius: 10px;
-    border-width: 4px;
+    border-width: 5px;
     margin-left: 40px;
     margin-right: 40px;
+    background-color: #FFE6CC;
 }
 
 .footer {
