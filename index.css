@@ -7,7 +7,6 @@
 
 .navbar { 
     display: flex;
-    justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #ffcccc;
@@ -16,15 +15,7 @@
 .navbar img {
     margin-top: 20px;
     max-width: 400px;
-    border-radius: 40px;
-}
-
-.navbar h1 {
-    font-size: 45px;
-}
-
-.navbar h1:hover {
-    color:#FF9999;
+    padding-right: 30%
 }
 
 .navbar a {
@@ -34,7 +25,7 @@
     font-weight: bold;
     margin-top: 50px;
     border: solid #FF9999;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #FF9999;
     max-height: 40px;
     padding: 5px;
@@ -43,6 +34,23 @@
 .navbar a:hover{
     color: #FFE6CC;
 }
+
+#order-button {
+    border-radius: 5px;
+    background-color:#ffcccc;
+    border-style: initial;
+    font-size:large;
+    font-family: Kalam, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#order-button:hover {
+    color:#FF9999;
+    background-color: #FFE6CC;
+}
+
+
 
 .main {
     text-align: center;
@@ -90,6 +98,11 @@
     margin-right: 40px;
     background-color: #FFE6CC;
 }
+
+.reviews p:hover{
+    transform: scale(110%)
+}
+
 
 .footer {
     display: flex;
