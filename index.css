@@ -1,75 +1,63 @@
 .html {
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto;
     background-color: #ffcccc;
-    font-family:Kalam, sans-serif;
+    font-family:Courgette, sans-serif;
 }
 
-.navbar { 
-    text-align: center;
-    background-color: #ffcccc;
-    margin-bottom: 20px;
+.body {
+    margin: 0 auto;
 }
 
 .body img {
     margin-top: 20px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
+.navbar {
+    text-align: right;
+    margin: 10px;
+}
+
 .navbar a {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
     font-size: 20px;
     font-weight: bold;
-    margin: 16px;
-    border: solid #FF9999;
-    border-radius: 15px;
-    background-color: #FF9999;
-    padding: 2px;
 }
 
 .navbar a:hover{
-    color: #FFE6CC;
+    color: #FF9999;
 }
 
 #order-button {
     border-radius: 5px;
-    background-color:#ffcccc;
+    background-color:#ccffff;
     border-style: initial;
-    font-size:large;
-    font-family: Kalam, sans-serif;
+    font-size: 16px;
+    font-family: Courgette, sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #order-button:hover {
-    color:#FF9999;
-    background-color: #FFE6CC;
+    background-color: #99FFFF;
 }
-
-
 
 .main {
     text-align: center;
-    border-radius: 10px;
     background-color: #FF9999;
     padding: 5px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     box-shadow: 0px 10px 20px rgb(149, 148, 148);
-}
-
-.main a {
-    color: black;
-    text-decoration: none;
-}
-
-.main a:hover {
-    color: #FFE6CC;
+    border-radius: 10px;
+    color: rgb(36, 36, 36);
 }
 
 .main-info {
@@ -77,31 +65,41 @@
     margin-top: 100px;
     font-weight: bold;
     font-size: 20px;
+    color: rgb(36, 36, 36);
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(36, 36, 36);
 }
 
 .reviews {
     text-align: center;
-    border-radius: 10px;
     background-color: #FF9999;
     padding: 5px;
     font-size: 20px;
     font-weight: bold;
     margin-top: 100px;
     box-shadow: 0px -10px 20px rgb(149, 148, 148);
+    border-radius: 10px;
+    color: rgb(36, 36, 36);
 }
 
 .reviews p {
     padding: 10px;
-    border: solid #ffcccc;
-    border-radius: 10px;
-    border-width: 5px;
+    border-radius: 20px;
     margin-left: 40px;
     margin-right: 40px;
-    background-color: #FFE6CC;
+    background-color: #ccffff;
+    color: rgb(36, 36, 36);
 }
 
 .reviews p:hover{
-    transform: scale(110%)
+    transform: scale(110%);
+    background-color:#99FFFF;
 }
 
 
@@ -117,7 +115,7 @@
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: rgb(36, 36, 36);
 }
 
 .footer a:hover {
