@@ -6,30 +6,30 @@
 }
 
 .navbar { 
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    text-align: center;
     background-color: #ffcccc;
-    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 .body img {
     margin-top: 20px;
-    max-width: 200px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .navbar a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 50px;
+    margin: 16px;
     border: solid #FF9999;
     border-radius: 15px;
     background-color: #FF9999;
-    max-height: 40px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .navbar a:hover{
