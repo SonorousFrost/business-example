@@ -19,13 +19,26 @@ function multiply(c, d){
     return c * d;
 }
 
-console.log(multiply(c, d))
+console.log(multiply(c, d));
 
 let nor = "Hello!";
-let nor2 = nor.charAt(0).toUpperCase() + nor.slice(0);
-
 let cam = "goodBye";
-let cam2 = cam.charAt(0).toUpperCase() + cam.slice(0);
+let ohp = "HellOAgaiN";
 
-console.log(nor);
-console.log(cam2); // how to make Bye lowercase?
+function capitalizeFirstLetter(nor) {
+    return nor.charAt(0).toUpperCase() + nor.slice(1).toLowerCase();
+}
+
+function capitalizeFirstLetter(cam) {
+    return cam.charAt(0).toUpperCase() + cam.slice(1).toLowerCase();
+}
+
+function capitalizeFirstLetter(ohp) {
+    return ohp.charAt(0).toUpperCase() + ohp.slice(1).toLowerCase();
+}
+
+        // function identifies string, returns value with first letter capitalized, then cuts the string back together with the remainder set to lowerCase
+
+console.log (capitalizeFirstLetter(nor)); // Hello!
+console.log (capitalizeFirstLetter(cam)); // Goodbye
+console.log (capitalizeFirstLetter(ohp)); // Helloagain
